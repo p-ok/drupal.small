@@ -4,7 +4,7 @@ MAINTAINER "Michel Behlok"
 
 RUN apk update
 
-RUN apk add php7-fpm php7-gd php7-zip php7-pdo php7-pdo_mysql php7-opcache nginx php7-json php7-session php7-ctype php7-curl php7-dom php7-tokenizer
+RUN apk add php7-fpm php7-gd php7-zip php7-pdo php7-pdo_mysql php7-opcache nginx php7-json php7-session php7-ctype php7-curl php7-dom php7-tokenizer php7-redis
 
 RUN apk add --update openssl
 
